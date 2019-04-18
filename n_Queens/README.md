@@ -1,3 +1,7 @@
+To run, use the following command - 
+
+g++ n_Queens.cpp
+
 The input file format is as follows:
 
 First line the method:
