@@ -30,3 +30,5 @@ BFS
 002000000002
 
 SA stands for Simulated Annealing. It uses energy function to guess which direction to go to next.
+
+Assignment handout https://github.com/angadp/CourseProjects/blob/master/n_Queens/hw1-csci561-f17.pdf
