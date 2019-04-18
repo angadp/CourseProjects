@@ -24,3 +24,5 @@ BFS
 000000000000
 222222222222
 002000000002
+
+SA stands for Simulated Annealing. It uses energy function to guess which direction to go to next.
