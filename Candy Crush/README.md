@@ -8,3 +8,5 @@ The first line of input respresents the number of rows. The second line, the tim
 
 The assignment was to play our agents against each other with a time limit of 300s for both opponents. Each move would try to collect 
 the most points in one turn. The time taken would be subtracted and the score would be added to the final score.
+
+Assignment handout - https://github.com/angadp/CourseProjects/blob/master/Candy%20Crush/hw2-csci561-f17.pdf
