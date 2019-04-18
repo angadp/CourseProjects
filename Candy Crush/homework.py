@@ -8,6 +8,7 @@ INT_MAX = 500000
 stackx = []
 stacky = []
 
+## Like color fill , trying all directions to find the optimal move.
 def flooding(x, y, array):
 	score = 0
 	stackx.append(x)
@@ -33,6 +34,7 @@ def flooding(x, y, array):
 				stacky.append(y_val+1)
 	return score
 
+## After the move has been chosen, this method makes the changes to the grid.
 def gravity(array):
 	n = len(array)
 	for i in range(n):
@@ -45,6 +47,7 @@ def gravity(array):
 		for j in range(change - 1, -1, -1):
 			array[j][i] = -1
 
+## Heurtistic
 def CalculateTimeForMove(array, time):
 	calarray = copy.deepcopy(array)
 	n = len(array)
@@ -71,6 +74,7 @@ def CalculateTimeForMove(array, time):
 	else:
 		return 3
 
+## get the best move
 def CalculateDP(array, maxi, level, lvlscore, alpha, beta):
 	if(level == 0):
 		return lvlscore, -1, -1
