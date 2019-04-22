@@ -1,4 +1,4 @@
-## TODO clean up by tonight, a bit complicated beacuse of variable subsitution
+## TODO clean up, a bit complicated beacuse of variable subsitution
 
 from copy import deepcopy
 inputf = open('input.txt', 'r')
